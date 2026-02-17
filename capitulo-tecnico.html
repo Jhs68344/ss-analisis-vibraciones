@@ -1,1 +1,120 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Capítulo Técnico | FFT, Fallas y Normas de Vibraciones | S&S Bogotá</title>
+  <meta name="description" content="Capítulo técnico: fundamentos del análisis de vibraciones, espectro FFT, fallas típicas (desbalanceo, desalineación, rodamientos), y referencias a ISO 10816/20816." />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://TU-DOMINIO.com/capitulo-tecnico.html" />
+  <link rel="icon" href="assets/logo-ss-supplier-and-services.jpg" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">
+      <img src="assets/logo-ss-supplier-and-services.jpg" class="brand-logo" alt="Logo S&S">
+      <div class="brand-text">
+        <span class="brand-name">S&amp;S Supplier and Services</span>
+        <span class="brand-tag">Capítulo técnico • Bogotá</span>
+      </div>
+    </a>
+
+    <nav class="nav">
+      <a class="nav-link" href="index.html">Inicio</a>
+      <a class="nav-link" href="servicios.html">Servicios</a>
+      <a class="nav-link" href="nosotros.html">Nosotros</a>
+      <a class="nav-link active" href="capitulo-tecnico.html">Capítulo técnico</a>
+      <a class="nav-link nav-cta" href="contacto.html">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<main class="page">
+  <section class="page-hero">
+    <div class="container">
+      <h1>Capítulo técnico: análisis de vibraciones</h1>
+      <p class="lead">Fundamentos, interpretación FFT y fallas típicas en maquinaria rotativa.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>1. ¿Por qué medir vibraciones?</h2>
+      <p>
+        Las vibraciones son una firma del estado mecánico de un equipo. Cambios en amplitud o frecuencia pueden indicar
+        fallas incipientes. El diagnóstico temprano permite planificar mantenimiento y evitar paradas no programadas.
+      </p>
+
+      <h2>2. Conceptos básicos</h2>
+      <div class="grid grid-3">
+        <article class="card">
+          <h3>Frecuencia (Hz)</h3>
+          <p>Cuántas veces por segundo ocurre un ciclo. Se relaciona con RPM (Hz = RPM/60).</p>
+        </article>
+        <article class="card">
+          <h3>Amplitud</h3>
+          <p>Magnitud de vibración. Puede medirse como velocidad, aceleración o desplazamiento.</p>
+        </article>
+        <article class="card">
+          <h3>FFT</h3>
+          <p>Transforma señal en tiempo a componentes en frecuencia para identificar patrones de falla.</p>
+        </article>
+      </div>
+
+      <h2>3. Señales típicas de falla</h2>
+      <ul class="list">
+        <li><strong>Desbalanceo:</strong> pico dominante cercano a 1X (frecuencia de rotación).</li>
+        <li><strong>Desalineación:</strong> componentes en 1X y 2X, y elevación axial en algunos casos.</li>
+        <li><strong>Holguras:</strong> armónicos múltiples (1X, 2X, 3X...) y comportamiento no lineal.</li>
+        <li><strong>Rodamientos:</strong> frecuencias características (BPFO/BPFI/BSF/FTF) según geometría.</li>
+      </ul>
+
+      <h2>4. Normas de referencia</h2>
+      <p>
+        Para evaluar severidad, se suelen usar referencias como ISO 10816 / ISO 20816 (dependiendo del equipo y clase).
+        La interpretación correcta requiere considerar tipo de máquina, potencia, base, condiciones de operación y medición.
+      </p>
+
+      <h2>5. Buenas prácticas en campo</h2>
+      <ul class="list">
+        <li>Definir puntos de medición repetibles.</li>
+        <li>Registrar RPM real y condiciones de carga.</li>
+        <li>Comparar tendencias (histórico), no solo una medición.</li>
+        <li>Recomendar acciones correctivas verificables.</li>
+      </ul>
+
+      <div class="note">
+        <strong>Tip:</strong> si la vibración “sube de golpe”, prioriza inspección de rodamientos, alineación y fijaciones.
+      </div>
+
+      <div class="media-wide">
+        <img src="assets/analisis-espectral-vibraciones.jpg" alt="Ejemplo ilustrativo de análisis espectral FFT" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="container cta-inner">
+      <div>
+        <h2>¿Quieres que revisemos tus equipos?</h2>
+        <p>Escríbenos por WhatsApp y te orientamos con la mejor estrategia predictiva.</p>
+      </div>
+      <a class="btn btn-primary" href="https://wa.me/57XXXXXXXXXX?text=Hola%2C%20quiero%20asesor%C3%ADa%20t%C3%A9cnica%20sobre%20vibraciones.%20Equipo%3A%20____%20RPM%3A%20____%20Bogot%C3%A1." target="_blank" rel="noopener">Hablar con un técnico</a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-bottom">
+    <small>© <span id="y"></span> S&S Supplier and Services.</small>
+  </div>
+</footer>
+
+<a class="whatsapp-float" href="https://wa.me/57XXXXXXXXXX?text=Hola%2C%20tengo%20una%20consulta%20t%C3%A9cnica%20sobre%20vibraciones." target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
 
