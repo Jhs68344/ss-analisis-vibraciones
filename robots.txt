@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ss-analisis-vibraciones.com/sitemap.xml
-
+Sitemap: https://TUUSUARIO.github.io/ss-analisis-vibraciones/sitemap.xml
