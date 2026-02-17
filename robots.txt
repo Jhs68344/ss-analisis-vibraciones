@@ -1,1 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ss-analisis-vibraciones.com/sitemap.xml
 
