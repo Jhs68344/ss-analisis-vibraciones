@@ -1,131 +1,119 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f6f9;
+    color: #333;
+}
 
-<title>Análisis de Vibraciones y Balanceo Dinámico en Bogotá | S&S Supplier and Services</title>
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
 
-<meta name="description" content="Especialistas en análisis de vibraciones y balanceo dinámico industrial en Bogotá. Diagnóstico predictivo basado en normas ISO para equipos rotatorios críticos.">
+header {
+    background: #0f2b46;
+    padding: 15px 0;
+}
 
-<meta name="keywords" content="análisis de vibraciones Bogotá, balanceo dinámico industrial, mantenimiento predictivo Colombia, ISO 10816, ISO 20816">
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
-<meta name="author" content="S&S Supplier and Services">
+.logo img {
+    height: 80px;
+}
 
-<link rel="stylesheet" href="style.css">
-</head>
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 500;
+}
 
-<body>
+nav a:hover {
+    color: #00c896;
+}
 
-<header>
-    <div class="container header-container">
-        <div class="logo">
-            <img src="logo-ss-supplier-and-services.jpg" alt="S&S Supplier and Services">
-        </div>
+.whatsapp-top {
+    background: #25D366;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
 
-        <nav>
-            <a href="#">Inicio</a>
-            <a href="#">Experiencia</a>
-            <a href="#">Normativa</a>
-            <a href="#">Contacto</a>
-        </nav>
+.hero {
+    background: #1c3554;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
 
-        <a class="whatsapp-top" href="https://wa.me/573108684070" target="_blank">
-            WhatsApp
-        </a>
-    </div>
-</header>
+.hero h1 {
+    font-size: 36px;
+}
 
-<section class="hero">
-    <div class="container">
-        <h1>Análisis de Vibraciones y Balanceo Dinámico Industrial en Bogotá</h1>
-        <p>Diagnóstico avanzado para equipos rotatorios críticos del sector industrial.</p>
-    </div>
-</section>
+.galeria-principal {
+    text-align: center;
+    padding: 50px 0;
+}
 
-<section class="galeria-principal">
-    <img src="galeria-equipos-analizados.jpg" alt="Equipos industriales analizados por S&S Supplier and Services en Bogotá">
-</section>
+.galeria-principal img {
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.2);
+}
 
-<section class="contenido-tecnico">
-    <div class="container">
-        <h2>ANÁLISIS DE VIBRACIONES Y BALANCEO DINÁMICO</h2>
+.contenido-tecnico {
+    background: white;
+    padding: 60px 0;
+}
 
-        <p>
-        El análisis de vibraciones permite determinar mediante mediciones periódicas el estado del desgaste de los elementos rodantes, previniendo paros no programados y evitando pérdidas económicas por fallas en sistemas industriales.
-        </p>
+.trabajo-campo {
+    padding: 60px 0;
+}
 
-        <p>
-        El balanceo dinámico es una práctica técnica normalizada orientada a reducir la carga en cojinetes y disminuir el ruido de funcionamiento de equipos rotatorios, mejorando su confiabilidad y prolongando su vida útil.
-        </p>
-    </div>
-</section>
+.grid-trabajo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
 
-<section class="trabajo-campo">
-    <div class="container">
-        <h2>Trabajo en Campo y Tecnología Aplicada</h2>
+.item-trabajo img {
+    width: 100%;
+    border-radius: 10px;
+}
 
-        <div class="grid-trabajo">
+.normativa {
+    background: white;
+    padding: 60px 0;
+}
 
-            <div class="item-trabajo">
-                <img src="tecnico-analisis-vibraciones.jpg" alt="Técnico realizando análisis de vibraciones industrial en Bogotá">
-                <p>Inspección vibracional en equipos rotatorios industriales.</p>
-            </div>
+.clientes {
+    padding: 60px 0;
+}
 
-            <div class="item-trabajo">
-                <img src="equipo-analisis-vibraciones.jpg" alt="Equipo profesional para análisis espectral de vibraciones">
-                <p>Instrumentación especializada para diagnóstico espectral avanzado.</p>
-            </div>
+.clientes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    margin-top: 30px;
+}
 
-        </div>
-    </div>
-</section>
+.clientes-grid div {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
+}
 
-<section class="normativa">
-    <div class="container">
-        <h2>Normas y Estándares Aplicados</h2>
-
-        <p>
-        Nuestros diagnósticos se fundamentan en estándares internacionales como ISO 10816 e ISO 20816,
-        que establecen criterios técnicos para evaluar la severidad vibracional en maquinaria rotatoria.
-        Aplicamos metodologías basadas en análisis espectral FFT, monitoreo predictivo y evaluación de condición.
-        </p>
-    </div>
-</section>
-
-<section class="clientes">
-    <div class="container">
-        <h2>Organizaciones que han confiado en S&S desde 2006</h2>
-
-        <ul>
-            <li>Cementos Argos</li>
-            <li>Postobon</li>
-            <li>Paz del Río</li>
-            <li>Estrella Internacional</li>
-            <li>Petrowork</li>
-            <li>Mecánicos Asociados</li>
-            <li>Petróleos de Ecuador</li>
-            <li>San Antonio Internacional</li>
-            <li>Alfa</li>
-            <li>Alfrio</li>
-            <li>Oleoducto Bicentenario</li>
-            <li>Vitelsa</li>
-            <li>Areva</li>
-            <li>Schenck Process América</li>
-            <li>SV Ingeniería</li>
-            <li>Vale</li>
-            <li>Ferretería Reina</li>
-        </ul>
-    </div>
-</section>
-
-<footer>
-    <div class="container">
-        <p>Bogotá, Colombia | WhatsApp: 310 868 4070</p>
-        <p>© 2026 S&S Supplier and Services</p>
-    </div>
-</footer>
-
-</body>
-</html>
-
+footer {
+    background: #0f2b46;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
