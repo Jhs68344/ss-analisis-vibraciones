@@ -1,130 +1,131 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family: Arial, Helvetica, sans-serif;
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-.container{
-    width:90%;
-    max-width:1200px;
-    margin:auto;
-}
+<title>Análisis de Vibraciones y Balanceo Dinámico en Bogotá | S&S Supplier and Services</title>
 
-/* HEADER */
+<meta name="description" content="Especialistas en análisis de vibraciones y balanceo dinámico industrial en Bogotá. Diagnóstico predictivo basado en normas ISO para equipos rotatorios críticos.">
 
-header{
-    background:#0d1b2a;
-    padding:15px 0;
-}
+<meta name="keywords" content="análisis de vibraciones Bogotá, balanceo dinámico industrial, mantenimiento predictivo Colombia, ISO 10816, ISO 20816">
 
-.header-container{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-}
+<meta name="author" content="S&S Supplier and Services">
 
-.logo img{
-    height:80px;
-}
+<link rel="stylesheet" href="style.css">
+</head>
 
-nav a{
-    color:white;
-    text-decoration:none;
-    margin-left:30px;
-    font-weight:500;
-}
+<body>
 
-nav a:hover{
-    color:#00b4d8;
-}
+<header>
+    <div class="container header-container">
+        <div class="logo">
+            <img src="logo-ss-supplier-and-services.jpg" alt="S&S Supplier and Services">
+        </div>
 
-.whatsapp-top{
-    background:#25D366;
-    color:white;
-    padding:10px 18px;
-    border-radius:30px;
-    text-decoration:none;
-    font-weight:bold;
-}
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Experiencia</a>
+            <a href="#">Normativa</a>
+            <a href="#">Contacto</a>
+        </nav>
 
-/* HERO */
+        <a class="whatsapp-top" href="https://wa.me/573108684070" target="_blank">
+            WhatsApp
+        </a>
+    </div>
+</header>
 
-.hero{
-    background:#1b263b;
-    color:white;
-    padding:80px 0;
-    text-align:center;
-}
+<section class="hero">
+    <div class="container">
+        <h1>Análisis de Vibraciones y Balanceo Dinámico Industrial en Bogotá</h1>
+        <p>Diagnóstico avanzado para equipos rotatorios críticos del sector industrial.</p>
+    </div>
+</section>
 
-.hero h1{
-    font-size:38px;
-    margin-bottom:20px;
-}
+<section class="galeria-principal">
+    <img src="galeria-equipos-analizados.jpg" alt="Equipos industriales analizados por S&S Supplier and Services en Bogotá">
+</section>
 
-.hero p{
-    font-size:18px;
-}
+<section class="contenido-tecnico">
+    <div class="container">
+        <h2>ANÁLISIS DE VIBRACIONES Y BALANCEO DINÁMICO</h2>
 
-/* GALERIA */
+        <p>
+        El análisis de vibraciones permite determinar mediante mediciones periódicas el estado del desgaste de los elementos rodantes, previniendo paros no programados y evitando pérdidas económicas por fallas en sistemas industriales.
+        </p>
 
-.gallery-section{
-    padding:60px 0;
-    text-align:center;
-}
+        <p>
+        El balanceo dinámico es una práctica técnica normalizada orientada a reducir la carga en cojinetes y disminuir el ruido de funcionamiento de equipos rotatorios, mejorando su confiabilidad y prolongando su vida útil.
+        </p>
+    </div>
+</section>
 
-.gallery-section h2{
-    margin-bottom:30px;
-    font-size:28px;
-}
+<section class="trabajo-campo">
+    <div class="container">
+        <h2>Trabajo en Campo y Tecnología Aplicada</h2>
 
-.gallery-section img{
-    width:100%;
-    border-radius:12px;
-    box-shadow:0 10px 25px rgba(0,0,0,0.2);
-}
+        <div class="grid-trabajo">
 
-/* TECNICO */
+            <div class="item-trabajo">
+                <img src="tecnico-analisis-vibraciones.jpg" alt="Técnico realizando análisis de vibraciones industrial en Bogotá">
+                <p>Inspección vibracional en equipos rotatorios industriales.</p>
+            </div>
 
-.tecnico{
-    background:#f5f5f5;
-    padding:70px 0;
-}
+            <div class="item-trabajo">
+                <img src="equipo-analisis-vibraciones.jpg" alt="Equipo profesional para análisis espectral de vibraciones">
+                <p>Instrumentación especializada para diagnóstico espectral avanzado.</p>
+            </div>
 
-.tecnico h2{
-    margin-bottom:25px;
-}
+        </div>
+    </div>
+</section>
 
-.tecnico p{
-    margin-bottom:20px;
-    line-height:1.7;
-}
+<section class="normativa">
+    <div class="container">
+        <h2>Normas y Estándares Aplicados</h2>
 
-/* CLIENTES */
+        <p>
+        Nuestros diagnósticos se fundamentan en estándares internacionales como ISO 10816 e ISO 20816,
+        que establecen criterios técnicos para evaluar la severidad vibracional en maquinaria rotatoria.
+        Aplicamos metodologías basadas en análisis espectral FFT, monitoreo predictivo y evaluación de condición.
+        </p>
+    </div>
+</section>
 
-.clientes{
-    padding:70px 0;
-}
+<section class="clientes">
+    <div class="container">
+        <h2>Organizaciones que han confiado en S&S desde 2006</h2>
 
-.clientes h2{
-    margin-bottom:30px;
-}
+        <ul>
+            <li>Cementos Argos</li>
+            <li>Postobon</li>
+            <li>Paz del Río</li>
+            <li>Estrella Internacional</li>
+            <li>Petrowork</li>
+            <li>Mecánicos Asociados</li>
+            <li>Petróleos de Ecuador</li>
+            <li>San Antonio Internacional</li>
+            <li>Alfa</li>
+            <li>Alfrio</li>
+            <li>Oleoducto Bicentenario</li>
+            <li>Vitelsa</li>
+            <li>Areva</li>
+            <li>Schenck Process América</li>
+            <li>SV Ingeniería</li>
+            <li>Vale</li>
+            <li>Ferretería Reina</li>
+        </ul>
+    </div>
+</section>
 
-.clientes ul{
-    columns:2;
-    list-style:none;
-}
+<footer>
+    <div class="container">
+        <p>Bogotá, Colombia | WhatsApp: 310 868 4070</p>
+        <p>© 2026 S&S Supplier and Services</p>
+    </div>
+</footer>
 
-.clientes li{
-    margin-bottom:12px;
-}
-
-/* FOOTER */
-
-footer{
-    background:#0d1b2a;
-    color:white;
-    text-align:center;
-    padding:30px 0;
-}
+</body>
+</html>
 
