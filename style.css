@@ -1,8 +1,7 @@
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #333;
-    line-height: 1.6;
+    font-family: Arial, sans-serif;
+    color: #1a1a1a;
 }
 
 .container {
@@ -12,7 +11,7 @@ body {
 }
 
 header {
-    background: #0f2d44;
+    background: #0d2b45;
     padding: 15px 0;
 }
 
@@ -23,65 +22,57 @@ header {
 }
 
 .logo img {
-    height: 80px;
+    height: 70px;
 }
 
 nav a {
     color: white;
-    margin: 0 15px;
     text-decoration: none;
+    margin: 0 15px;
     font-weight: 500;
-}
-
-nav a:hover {
-    color: #00c853;
 }
 
 .whatsapp-top {
     background: #25D366;
     color: white;
     padding: 10px 20px;
-    border-radius: 30px;
+    border-radius: 25px;
     text-decoration: none;
     font-weight: bold;
 }
 
 .hero {
-    background: #1f3c5a;
+    background: #1f3a56;
     color: white;
+    padding: 80px 0;
     text-align: center;
-    padding: 70px 20px;
-}
-
-.hero h1 {
-    font-size: 36px;
-    margin-bottom: 15px;
 }
 
 .galeria-principal {
+    padding: 60px 0;
     text-align: center;
-    padding: 40px 0;
 }
 
 .galeria-principal img {
-    max-width: 100%;
+    width: 100%;
+    max-width: 1100px;
     border-radius: 12px;
 }
 
-.contenido-tecnico {
-    background: #f5f5f5;
-    padding: 50px 0;
-}
-
 .trabajo-campo {
+    background: #f2f2f2;
     padding: 60px 0;
 }
 
 .grid-trabajo {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display: flex;
     gap: 30px;
-    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.item-trabajo {
+    flex: 1;
+    min-width: 300px;
 }
 
 .item-trabajo img {
@@ -89,22 +80,15 @@ nav a:hover {
     border-radius: 10px;
 }
 
-.normativa {
-    background: #f5f5f5;
-    padding: 50px 0;
-}
-
+.contenido-tecnico,
+.normativa,
 .clientes {
     padding: 60px 0;
 }
 
-.clientes ul {
-    columns: 2;
-}
-
 footer {
-    background: #0f2d44;
+    background: #0d2b45;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 30px 0;
 }
